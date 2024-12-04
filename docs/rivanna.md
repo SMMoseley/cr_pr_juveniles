@@ -16,7 +16,7 @@ ijob -c 2 -A melizalab -p standard --time 1:00:00
 Activate the required modules and install the dependencies using anaconda and pip:
 
 ``` shell
-module load anaconda/2023.07-py3.11
+module load miniforge/24.3.0-py3.11
 conda create --name cr-pr-adults python=3.11 scikit-learn-intelex pandas
 conda activate cr-pr-adults
 python -m pip install -e .
